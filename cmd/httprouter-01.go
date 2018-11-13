@@ -1,6 +1,10 @@
 package main
 // Exaample from: https://stevenwhite.com/building-a-rest-service-with-golang-2/
 
+//Test:
+//    curl http://localhost:3000/user/1
+// should produce:  {"name":"Bob Smith","gender":"male","age":50,"id":"1"}
+
 import (
 	// Standard library packages
 	"net/http"
